@@ -5,7 +5,7 @@ import gaana
 import speech_recognition as sr
 from gtts import gTTS
 
-
+# initial code
 def speak (text):
     tts = gTTS(text = text, lang= "en")
     filename = "text.mp3"
